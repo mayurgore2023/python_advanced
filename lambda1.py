@@ -1,14 +1,20 @@
-
-# program return the power of two  of given number from user using lambda function :
+# Multiplication of two numbers using lambda function:\
 
 def main():
+    print("Multiplication of two numbers")
     
-    print("Poewr of Two of given number")
-    power_Function=lambda A : A**2
-    print("Enter the number:")
-    No=int(input())
-    Power=power_Function(No)
-    print("power of given number is",Power)
+    Multiplication = lambda A,B:(A*B)
+
+    print("Enter first number:")
+    value1=int(input())
+
+    print("Enter second numbeer:")
+    value2=int(input())
+
+    Ans=Multiplication(value1,value2)
+    print("Multiplication of given numbers is :",Ans)
 
 if __name__=="__main__":
     main()
+
+
