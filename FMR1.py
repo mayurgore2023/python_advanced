@@ -9,6 +9,9 @@ def CheckEven(No):
 def Increment(No):
     return No+2
 
+
+
+# user defined FMR:
 def filterX(Arr,Function_Name):
     Result = []
     for no in Arr:
@@ -23,6 +26,7 @@ def mapX(Arr,Function_Name):
         Result.append(value)
     return Result
 
+# reduce function directly return addion of numbers after mappimng
 def reduceX(Arr):
     Sum = 0
     for no in Arr:
