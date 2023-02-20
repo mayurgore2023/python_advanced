@@ -27,14 +27,17 @@ def main():
         List.append(values)
     print("Data in list is :",List)
 
+    # filter operation:(numbers in range 70 to 90)
     print("Filter operation on list :")
     Chknumber=list(filter(Chknum,List))
     print("Data after filter :",Chknumber)
-
+    
+    # map operation:(addition of 10)
     print("Map operation on list :")
     Increment=list(map(increase,Chknumber))
     print("Data after Map:",Increment)
-
+    
+    # reduce operation:(Multiplication)
     print("Reduce operation on list")
     Multiplication=reduce(product,Increment)
     print(("Data after Reduce:",Multiplication))
