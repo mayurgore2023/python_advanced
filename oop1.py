@@ -1,5 +1,5 @@
 
-### Banking Application:
+### Banking Application: create bank account
 
 # Instance variable : Name, Amount, Address, AccountNo
 # Instance method : CreateAccount(), DisplayAccountInfo()
