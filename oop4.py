@@ -1,11 +1,13 @@
 
-# Q. Accept n numbers from user store in list and display list of that numbers:
+## Q. Accept n numbers from user store in list and display list of that numbers:
 
 class Numbers:
+    # instance variables:
     def __init__(self):
         self.Size = 0
         self.Arr = list()
-
+     
+    # instance methods:
     def Accept(self):
         print("Enter how many elements you want : ")
         self.Size = int(input())
@@ -22,7 +24,10 @@ class Numbers:
             print(self.Arr[i])
 
 def main():
+    #class object:
     obj = Numbers()
+    
+    #calling instance methods:
     obj.Accept()
     obj.Display()
 
