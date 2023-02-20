@@ -27,7 +27,7 @@ def mapX(Helper_Function, Data):
     return Result
     
     
-  # reduce function: 
+# reduce function: 
 def reduceX(Helper_Function, Data):
     Ans = 0
     for no in Data:
