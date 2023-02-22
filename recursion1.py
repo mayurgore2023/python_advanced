@@ -1,0 +1,14 @@
+
+#Q Application returns multiplication of factorial using recursive function
+
+def Fact(No):
+    if(No <=0):
+        return 1
+    else:
+        return (No * Fact(No-1))
+        # 4 * 3 * 2 * 1 -> 24
+
+
+Ret = Fact(4)
+
+print("Result is : ",Ret)
